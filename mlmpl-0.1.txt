@@ -2,24 +2,24 @@
 
 Preamble
 
-The purpose of the present license is to give machine learning developers a way 
-to share a model publicly in a way that guarantees their work stays open, to 
+The purpose of the present license is to give machine learning developers a way
+to share a model publicly in a way that guarantees their work stays open, to
 the benefit of the whole community.
 
-Its intent is to translate the logic of popular copyleft licenses into the 
-world of machine learning models. It is a modification of the Affero General 
-Public license 3.0, with adaptations to accommodate for the differences between 
-a machine learning model and a typical program. Please note that this license 
-and its author are not affiliated with the GNU project nor Free Software 
+Its intent is to translate the logic of popular copyleft licenses into the
+world of machine learning models. It is a modification of the Affero General
+Public license 3.0, with adaptations to accommodate for the differences between
+a machine learning model and a typical program. Please note that this license
+and its author are not affiliated with the GNU project nor Free Software
 Foundation.
 
-Machine learning models and compiled programs have some similarities but what 
-constitutes the source  of a model is unclear. This license aims at removing 
+Machine learning models and compiled programs have some similarities but what
+constitutes the source  of a model is unclear. This license aims at removing
 this ambiguity.
 
-The key principle of this license is to spread the MLMPL license to models 
-derived from a MLMPL model but to allow non-model outputs (e.g. text, video, 
-images) to be licensed without constraints by the model user as long as the 
+The key principle of this license is to spread the MLMPL license to models
+derived from a MLMPL model but to allow non-model outputs (e.g. text, video,
+images) to be licensed without constraints by the model user as long as the
 model used remains published.
 
 The precise terms and conditions for copying, distribution and
@@ -29,7 +29,7 @@ modification follow.
 
   0. Definitions.
 
-  "This License" refers to version 3 of the Machine Learning Model Public 
+  "This License" refers to version 3 of the Machine Learning Model Public
 License.
 
   "Copyright" also means copyright-like laws that apply to other kinds of
@@ -60,12 +60,12 @@ a computer network, with no transfer of a copy, is not conveying.
 
   A "machine learning model" or "model" is a work composed of the following
 elements:
-    a) A set of training programs
-    b) An architecture described either as a program or in a well-documented 
-description format with public specifications
-    c) A set of weights
-    d) Optionally, a set of inference programs used to cause the model to 
-produce outputs.
+  a) A set of training programs
+  b) An architecture described either as a program or in a well-documented
+     description format with public specifications
+  c) A set of weights
+  d) Optionally, a set of inference programs used to cause the model to
+     produce outputs.
 
   A "training program" is a program used to produce or modify the weights of
 the model.
@@ -81,19 +81,19 @@ outputs that are not new machine learning models or weights.
 
 1. Obligations
 
-In order for a machine learning model to be compatible with the MLMPL it must 
+In order for a machine learning model to be compatible with the MLMPL it must
 obey the following properties:
 
-  a) Its training programs must be licensed under the GNU Affero General Public 
-License version 3 or a later revision of it. If several versions of the program 
-have been used to produce the included weights, all versions of the training 
-program must be included in the Model.
-  b) If it uses inference programs, these programs must be licensed under the 
+  a) Its training programs must be licensed under the GNU Affero General Public
+  License version 3 or a later revision of it. If several versions of the
+  program have been used to produce the included weights, all versions of the
+  training program must be included in the Model.
+  b) If it uses inference programs, these programs must be licensed under the
 GNU Affero General Public License version 3 or a later revision of it.
-  c) The procedures and parameters used to produce the weights must be 
-included. Including but not limited to: the volume of inputs used and the input 
+  c) The procedures and parameters used to produce the weights must be
+included. Including but not limited to: the volume of inputs used and the input
 format used.
-  d) It is not necessary, to fulfill obligation c), to include the full dataset 
+  d) It is not necessary, to fulfill obligation c), to include the full dataset
 used to produce the weights.
 
 
@@ -109,13 +109,13 @@ given its content, constitutes a covered work. If the output does not
 constitute a covered work, you are granted the right to propagate it under any
 license you see fit on the following conditions:
 
-  a) Any copyright notice accompanying the propagation of the output must 
-mention the Model used.
-  b) Any copyright notice accompanying the propagation of the output must 
-provide an opportunity to receive the version of the Model used to produce the 
-output, by providing access to the corresponding Model from a network server at 
-no  charge, through some standard or customary means of facilitating copying of 
-models.
+  a) Any copyright notice accompanying the propagation of the output must
+     mention the Model used.
+  b) Any copyright notice accompanying the propagation of the output must
+     provide an opportunity to receive the version of the Model used to produce
+     the output, by providing access to the corresponding Model from a network
+     server at no charge, through some standard or customary means of
+     facilitating copying of models.
 
   Instead of the exact model used for the generation of the output, it is
 acceptable, with respect to the obligation described in b), to provide a later
@@ -171,25 +171,25 @@ and you may offer support or warranty protection for a fee.
 
 5. Conveying Models Derived From The Model
 
-You may convey a machine learning model based on the Model, or the 
-modifications to produce it from the Model under the terms of section 4, 
+You may convey a machine learning model based on the Model, or the
+modifications to produce it from the Model under the terms of section 4,
 provided that you also meet all of these conditions
 
   a) The work must carry prominent notices stating that you modified
-  it, and giving a relevant date.
+     it, and giving a relevant date.
 
   b) The work must carry prominent notices stating that it is
-  released under this License and any conditions added under section
-  7. This requirement modifies the requirement in section 4 to
-  "keep intact all notices".
+     released under this License and any conditions added under section 7. This
+     requirement modifies the requirement in section 4 to "keep intact all
+     notices".
 
   c) You must license the entire work, as a whole, under this
-  License to anyone who comes into possession of a copy. This
-  License will therefore apply, along with any applicable section 7
-  additional terms, to the whole of the work, and all its parts,
-  regardless of how they are packaged. This License gives no
-  permission to license the work in any other way, but it does not
-  invalidate such permission if you have separately received it.
+     License to anyone who comes into possession of a copy. This
+     License will therefore apply, along with any applicable section 7
+     additional terms, to the whole of the work, and all its parts,
+     regardless of how they are packaged. This License gives no
+     permission to license the work in any other way, but it does not
+     invalidate such permission if you have separately received it.
 
   d) Your model obeys all the constraints listed in section 1
 
@@ -205,46 +205,47 @@ parts of the aggregate.
 
 6. Conveying Weights Separately From The Model
 
-You may convey the weights of the Model separately from the Model under the 
-terms of sections 4 and 5, provided that you also convey the full Model under 
+You may convey the weights of the Model separately from the Model under the
+terms of sections 4 and 5, provided that you also convey the full Model under
 the terms of this License, in a machine-readable format, in one of these ways:
 
     a) Convey the weights in, or embodied in, a physical product
-    (including a physical distribution medium), accompanied by the
-    full Model fixed on a durable physical medium customarily used for software 
-interchange.
+       (including a physical distribution medium), accompanied by the
+       full Model fixed on a durable physical medium customarily used for
+       software interchange.
 
     b) Convey the weights in, or embodied in, a physical product
-    (including a physical distribution medium), accompanied by a
-    written offer, valid for at least three years and valid for as
-    long as you offer spare parts or customer support for that product
-    model, to give anyone who possesses the weights either (1) a
-    copy of the Model corresponding to the weights in the
-    product that is covered by this License, on a durable physical
-    medium customarily used for model interchange, for a price no
-    more than your reasonable cost of physically performing this
-    conveying of the model, or (2) access to copy the
-    Model from a network server at no charge.
+       (including a physical distribution medium), accompanied by a
+       written offer, valid for at least three years and valid for as
+       long as you offer spare parts or customer support for that product
+       model, to give anyone who possesses the weights either (1) a
+       copy of the Model corresponding to the weights in the
+       product that is covered by this License, on a durable physical
+       medium customarily used for model interchange, for a price no
+       more than your reasonable cost of physically performing this
+       conveying of the model, or (2) access to copy the
+       Model from a network server at no charge.
 
     c) Convey individual copies of the weights with a copy of the
-    written offer to provide the full Model. This alternative is allowed only 
-occasionally and noncommercially, and only if you received the weights with 
-such an offer, in accord with subsection 6b.
+       written offer to provide the full Model. This alternative is allowed only
+       occasionally and noncommercially, and only if you received the weights
+       with such an offer, in accord with subsection 6b.
 
-    d) Convey the weights by offering access from a designated place (gratis or 
-for a charge), and offer equivalent access to the full Model in the same way 
-through the same place at no further charge. You need not require recipients to 
-copy the full Model along with the weights. If the place to copy the weights is 
-a network server, the full Model may be on a different server (operated by you 
-or a third party) that supports equivalent copying facilities, provided you 
-maintain clear directions next to the weight saying where to find the full 
-Model. Regardless of what server hosts the full Model, you remain obligated to 
-ensure that it is available for as long as needed to satisfy these requirements.
+    d) Convey the weights by offering access from a designated place (gratis or
+       for a charge), and offer equivalent access to the full Model in the same
+       way through the same place at no further charge. You need not require
+       recipients to copy the full Model along with the weights. If the place
+       to copy the weights is a network server, the full Model may be on a
+       different server (operated by you or a third party) that supports
+       equivalent copying facilities, provided you maintain clear directions
+       next to the weight saying where to find the full Model. Regardless of
+       what server hosts the full Model, you remain obligated to ensure that it
+       is available for as long as needed to satisfy these requirements.
 
     e) Convey the weights using peer-to-peer transmission, provided
-    you inform other peers where the weights and corresponding
-    full Model of the work are being offered to the general public at no
-    charge under subsection 6d.
+       you inform other peers where the weights and corresponding
+       full Model of the work are being offered to the general public at no
+       charge under subsection 6d.
 
   A "User Product" is either (1) a "consumer product", which means any
 tangible personal property which is normally used for personal, family,
@@ -263,7 +264,7 @@ the only significant mode of use of the product.
 procedures, authorization keys, or other information required to install
 and execute modified versions of a covered work in that User Product from
 a modified version of its Model. The information must
-suffice to ensure that the continued functioning of the modified weights is in 
+suffice to ensure that the continued functioning of the modified weights is in
 no case prevented or interfered with solely because
 modification has been made.
 
@@ -408,8 +409,8 @@ organization, or merging organizations. If propagation of a covered
 work results from an entity transaction, each party to that
 transaction who receives a copy of the work also receives whatever
 licenses to the work the party's predecessor in interest had or could
-give under the previous paragraph, plus a right to possession of the work from 
-the predecessor in interest, if the predecessor has it or can get it with 
+give under the previous paragraph, plus a right to possession of the work from
+the predecessor in interest, if the predecessor has it or can get it with
 reasonable efforts.
 
 You may not impose any further restrictions on the exercise of the
