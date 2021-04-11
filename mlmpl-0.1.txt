@@ -85,16 +85,16 @@ In order for a machine learning model to be compatible with the MLMPL it must
 obey the following properties:
 
   a) Its training programs must be licensed under the GNU Affero General Public
-  License version 3 or a later revision of it. If several versions of the
-  program have been used to produce the included weights, all versions of the
-  training program must be included in the Model.
+     License version 3 or a later revision of it. If several versions of the
+     program have been used to produce the included weights, all versions of the
+     training program must be included in the Model.
   b) If it uses inference programs, these programs must be licensed under the
-GNU Affero General Public License version 3 or a later revision of it.
+     GNU Affero General Public License version 3 or a later revision of it.
   c) The procedures and parameters used to produce the weights must be
-included. Including but not limited to: the volume of inputs used and the input
-format used.
+     included. Including but not limited to: the volume of inputs used and the
+     input format used.
   d) It is not necessary, to fulfill obligation c), to include the full dataset
-used to produce the weights.
+     used to produce the weights.
 
 
 2. Basic Permissions.
@@ -316,27 +316,27 @@ add to a covered work, you may (if authorized by the copyright holders of
 that material) supplement the terms of this License with terms:
 
   a) Disclaiming warranty or limiting liability differently from the
-  terms of sections 13 and 14 of this License; or
+     terms of sections 13 and 14 of this License; or
 
   b) Requiring preservation of specified reasonable legal notices or
-  author attributions in that material or in the Appropriate Legal
-  Notices displayed by works containing it; or
+     author attributions in that material or in the Appropriate Legal
+     Notices displayed by works containing it; or
 
   c) Prohibiting misrepresentation of the origin of that material, or
-  requiring that modified versions of such material be marked in
-  reasonable ways as different from the original version; or
+     requiring that modified versions of such material be marked in
+     reasonable ways as different from the original version; or
 
   d) Limiting the use for publicity purposes of names of licensors or
-  authors of the material; or
+     authors of the material; or
 
   e) Declining to grant rights under trademark law for use of some
-  trade names, trademarks, or service marks; or
+     trade names, trademarks, or service marks; or
 
   f) Requiring indemnification of licensors and authors of that
-  material by anyone who conveys the material (or modified versions of
-  it) with contractual assumptions of liability to the recipient, for
-  any liability that these contractual assumptions directly impose on
-  those licensors and authors.
+     material by anyone who conveys the material (or modified versions of
+     it) with contractual assumptions of liability to the recipient, for
+     any liability that these contractual assumptions directly impose on
+     those licensors and authors.
 
 All other non-permissive additional terms are considered "further
 restrictions" within the meaning of section 10. If the Program as you
