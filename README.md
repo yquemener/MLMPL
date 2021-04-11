@@ -1,6 +1,6 @@
 What
 ====
-This is a license designed to apply to pre-trained machine learning models. It allows to share a model in a copyleft fashion: allowing modification and reuse but guaranteeing that the model remains open.
+[MLMPL](mlmpl-0.1.txt) is a license designed to apply to pre-trained machine learning models. It allows to share a model in a copyleft fashion: allowing modification and reuse but guaranteeing that the model remains open.
 
 Why
 ===
