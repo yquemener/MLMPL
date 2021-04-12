@@ -1,10 +1,10 @@
 What
 ====
-[MLMPL](mlmpl-0.1.txt) is a license designed to apply to pre-trained machine learning models. It allows to share a model in a copyleft fashion: allowing modification and reuse but guaranteeing that the model remains open.
+[MLMPL](mlmpl-0.1.txt) is a license designed for pre-trained machine learning models. It works in a copyleft fashion: it allows modification and reuse but guarantees that the model remains open.
 
 Why
 ===
-Existing open source license assume you are releasing something that can have a binary form and a source code form. These notions are not directly applicable to the machine learning world. This license disambiguates a few things.
+Existing open source licenses assume you are releasing something that can have a binary form and a source code form. These notions are not directly applicable to the machine learning world. This license disambiguates these notions.
 
 How
 ===
@@ -20,7 +20,7 @@ TLDR
 
 Judgement calls
 ===============
-I read a lot of discussions and advice, both about the legality and practicability of solutions, before writing this license. I had to make two decisions to write this license. I suppose different decisions on those could lead to a different license:
+Before writing this license, I read a lot of discussions and advice, both about the legality and practicability of solutions. I had to make two decisions to write this license. I suppose different decisions on those could lead to different licenses:
 
 1. **You don't need to publish the full training dataset**.
 
