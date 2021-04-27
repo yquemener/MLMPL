@@ -20,12 +20,12 @@ TLDR
 
 Judgement calls
 ===============
-Before writing this license, I read a lot of discussions and advice, both about the legality and practicability of solutions. I had to make two decisions to write this license. I suppose different decisions on those could lead to different licenses:
+Before writing this license, I read a lot of discussions and advice, both about the legality and practicability of possible solutions. I had to make two decisions to write this license. I suppose different decisions on those could lead to different licenses:
 
 1. **You don't need to publish the full training dataset**.
 
-    Datasets can be huge, private, can be generated on-line and not saved, can include privacy-sensitive data. We want it easy to release models that can be improved by the community. Of course, open datasets are a very good thing, but mandating them for open models is an unnecessary barrier. You still need to specify the type and volume of data used for the training.
+    Datasets can be huge, private, can be generated on-line and not saved, can include privacy-sensitive data. We want it easy to release models that can be improved by the community. Of course, open datasets are a very good thing, but mandating them for open models is an unnecessary barrier. You still need to specify the type and volume of data used for the training but do not need to include the actual content.
 
 2. **When you publish a MLMPL-model output, you don't have to link to the specific model used but you can link to a better one instead**.
 
-    This takes into account the case of constantly-training models. It would be impractical to keep a backup of all training iterations, especially for big models, so it is considered acceptable to link to the most up-to-date model. The exact wording is "it is acceptable, [..] to provide a later version of the machine learning model that exhibits similar or better performance on the objective metrics relevant to the task at hand."
+    This takes into account the case of constantly-training models. It would be impractical to keep a backup of all training iterations, especially for big models, so it is considered acceptable to link to the most up-to-date model. The exact wording is "it is acceptable, [...] to provide a later version of the machine learning model that exhibits similar or better performance on the objective metrics relevant to the task at hand."
